@@ -17,7 +17,7 @@ void Level1(){
 		number=number-p1;
 		cout<<"Remaining number is:"<<number<<"\n";
 		if(number<=0){
-			cout<<" player 1 is the winner";
+			cout<<" Player 1 is the winner";
 			break;
 		}
 		cout<<"player 2 press 1 or 2 \n"<<"P2:";
@@ -29,7 +29,7 @@ void Level1(){
 		number=number-p2;
 		cout<<"Remaining number is:"<<number<<"\n";
 		if(number<=0){
-			cout<<"player 2 is the winner";
+			cout<<"Player 2 is the winner";
 		}
 	}
 }
