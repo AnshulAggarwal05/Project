@@ -149,29 +149,29 @@ void Level2(){
 		}
 	}
 }
-	int main(){
-		int level,against;
-		cout<<"press 1 to play against computer and press 2 to play against human\n";
-		cin>>against;
-		if(against==1){
-			cout<<"choose the Difficulty between 1 or 2\n";
-			cin>>level;
-			if(level==1){
-				comp_level1();
-			}
-			if(level==2){
-				comp_level2();
-			}
+int main(){
+	int level,against;
+	cout<<"press 1 to play against computer and press 2 to play against human\n";
+	cin>>against;
+	if(against==1){
+		cout<<"choose the Difficulty between 1 or 2\n";
+		cin>>level;
+		if(level==1){
+			comp_level1();
 		}
-		if(against==2){
-			cout<<"choose the difficulty between 1 or 2\n";
-			cin>>level;
-			if(level==1){
-				Level1();
-			}
-			if(level==2){
-				Level2();
-			}
+		if(level==2){
+			comp_level2();
 		}
-		return 0;
 	}
+	if(against==2){
+		cout<<"choose the difficulty between 1 or 2\n";
+		cin>>level;
+		if(level==1){
+			Level1();
+		}
+		if(level==2){
+			Level2();
+		}
+	}
+	return 0;
+}
